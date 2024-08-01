@@ -140,7 +140,7 @@ a {
 
 .page-hero {
   background-color: #2e2f42;
-  max-width: 1140px;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 188px;
@@ -149,7 +149,7 @@ a {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("../images/people-office.png");
+    url(../images/people-office.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -527,4 +527,7 @@ a {
 }
 .icon-icon {
   fill: #f4f4fd;
+}
+.picture-portfolio {
+  align-items: baseline;
 }
