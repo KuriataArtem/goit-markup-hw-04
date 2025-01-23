@@ -50,6 +50,9 @@ button {
 
 /* HEADER */
 .page-heder {
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 .container-nav {
   display: flex;
@@ -131,6 +134,16 @@ button {
 /* HERO SECTION */
 .section-hero {
   background: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/heroimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
 .hero-title {
@@ -218,7 +231,14 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+.svg-info {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background: #f4f4fd;
+  padding: 24px 100px;
+  margin-bottom: 8px;
+  /* text-align: center; */
+}
 /* TEAM SECTION */
 .team-section {
   display: flex;
@@ -280,10 +300,30 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
   align-items: center;
+  margin-bottom: 8px;
 }
 .team-ht {
-  padding: 32px 0;
   text-align: center;
+  padding: 32px 0;
+}
+
+.team-svg-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  fill: #f4f4fd;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+.team-svg {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+}
+.team-svg-item-svg {
 }
 /* PORTFOLIO SECTION */
 .section-portfolio {
